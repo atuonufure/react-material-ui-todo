@@ -25,23 +25,21 @@ export default function App() {
         onChange={e => setTask(e.target.value)}
       />
       <div className="button-wrapper">
-        <Button
-          className="button"
-          variant="contained"
-          color="primary"
-          onClick={addTask}
-        >
-          Add
-        </Button>
-        <Button
-          className="button"
-          variant="contained"
-          color="secondary"
-          onClick={() => setTasksArray([])}
-          disabled={tasksArray.length > 0 ? false : true}
-        >
-          Clear all
-        </Button>
+        <div className="button">
+          <Button variant="contained" color="primary" onClick={addTask}>
+            Add
+          </Button>
+        </div>
+        <div className="button">
+          <Button
+            variant="contained"
+            color="secondary"
+            onClick={() => setTasksArray([])}
+            disabled={tasksArray.length > 0 ? false : true}
+          >
+            Clear all
+          </Button>
+        </div>
       </div>
       <div className="tasks-column">
         {tasksArray.map((task, id) => (
