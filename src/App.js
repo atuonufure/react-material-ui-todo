@@ -18,7 +18,7 @@ export default function App() {
     setTasksArray(newTasksArray);
   };
   return (
-    <div className="wrapper">
+    <form className="wrapper" onSubmit={addTask}>
       <Input
         id="standard-basic"
         value={task}
@@ -51,6 +51,6 @@ export default function App() {
           </div>
         ))}
       </div>
-    </div>
+    </form>
   );
 }
