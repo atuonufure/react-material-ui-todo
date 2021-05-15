@@ -7,3 +7,15 @@ Try the application live [https://react-material-ui-todo.vercel.app/](https://re
 
 - [ReactJS](https://reactjs.org/)
 - [Material-UI](https://material-ui.com/)
+
+## How to run locally
+
+Use the command to install dependencies:
+
+### `yarn install`
+
+Use the command to start app:
+
+### `yarn start`
+
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
