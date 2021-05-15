@@ -1,3 +1,7 @@
-# react-material-ui-todo
+# To Do app
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/react-material-ui-todo)
+![Preview image](/src/assets/preview.png)
+# Tech 🛠
+
+- [ReactJS](https://reactjs.org/)
+- [Material-UI](https://material-ui.com/)
